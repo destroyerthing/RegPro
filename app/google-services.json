@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "949849687342",
+    "project_id": "regpro-88fba",
+    "storage_bucket": "regpro-88fba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949849687342:android:5c16b9974a5987e1c8e6bf",
+        "android_client_info": {
+          "package_name": "com.example.regpro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFWtkguwsDU3LJFV_DGjnAbU2DtKEcwyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

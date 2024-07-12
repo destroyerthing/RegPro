@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RegPro</string>
+
+
+    <string-array name="country_codes">
+        <item>+7 (Russia)</item>
+        <item>+1 (US)</item>
+        <item>+44 (UK)</item>
+        <item>+86 (China)</item>
+
+    </string-array>
+
+</resources>
