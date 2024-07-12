@@ -1,77 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:background="#2D2F41">
 
-    <ImageView
-        android:id="@+id/ivPhoneIcon"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
-        android:src="@drawable/baseline_phone_android_24"
-        app:tint="#FFFFFF" />
 
-    <TextView
-        android:id="@+id/tvTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/ivPhoneIcon"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:text="Номер телефона"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp" />
-
-    <TextView
-        android:id="@+id/tvSubtitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tvTitle"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:text="Проверьте код страны и введите свой номер телефона."
-        android:textColor="#CCCCCC"
-        android:textSize="16sp" />
-
-    <Spinner
-        android:id="@+id/spinnerCountry"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/tvSubtitle"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:entries="@array/country_codes"
-        android:background="#2D2F41"
-        android:popupBackground="#2D2F41"
-        android:textColor="#FFFFFF" />
-
-    <EditText
-        android:id="@+id/etPhoneNumber"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/spinnerCountry"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:hint="Номер телефона"
-        android:inputType="phone"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#CCCCCC"
-        android:backgroundTint="#CCCCCC" />
 
     <Button
-        android:id="@+id/btnNext"
-        android:layout_width="match_parent"
+        android:id="@+id/signOutBtn"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/etPhoneNumber"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:background="#3A3F52"
-        android:text="Далее"
+        android:text="выйти"
         android:textColor="#FFFFFF" />
 
-</RelativeLayout>
+</LinearLayout>
